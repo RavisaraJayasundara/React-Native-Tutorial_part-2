@@ -14,6 +14,12 @@ export default function HomeScreen() {
         title="Profile List"
         onPress={() => navigation.navigate("Profile List")}
       />
+      <Button
+        title="Go to About"
+        onPress={() => navigation.navigate("About",{
+            name:"Ravidula"
+        })}
+      />
     </View>
   );
 }
