@@ -7,8 +7,8 @@ import {
   FlatList,
   Image,
 } from "react-native";
-import Box from "./components/Box";
-import { students } from "./components/data";
+
+import { students } from "./data";
 
 export default function List() {
   return (
